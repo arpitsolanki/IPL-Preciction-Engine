@@ -4,3 +4,7 @@ This application uses detailed match by match data for IPL matches available on 
 
 
 
+
+https://user-images.githubusercontent.com/4781980/119229696-cf91d080-bb36-11eb-8619-2d138e4203a7.mov
+
+
