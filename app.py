@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 
 def main():
   st.title("IPL Prediction Engine ")
-  st.markdown("This application uses detailed match by match data for IPL matches available on [cricsheet.org](cricsheet.org) to train a ML model based on matches going hack to 2008 & predicts match outcomes for the upcoming season. The model uses various features based on a team's historical & recent performances, therefore its re-run after every single match in the tournament to update win probabilities for reamining games.")
+  st.markdown("This application uses detailed match by match data for IPL matches available on [cricsheet.org](cricsheet.org) to train a ML model based on matches going hack to 2008 & predicts match outcomes for the upcoming season. The model uses various features based on a team's historical & recent performances, therefore its re-run after every single match in the tournament to update win probabilities for reamining games. Read more about the methodology & process [here](https://arpitsolanki.github.io/blog/2021/04/15/Building-a-model-to-predict-IPL-match-outcomes.html)")
   data=pd.read_csv('https://raw.githubusercontent.com/arpitsolanki/IPL-Prediction-Engine/main/final_output.csv')
   gw_list=data['date'].unique().tolist()
   menu=gw_list
